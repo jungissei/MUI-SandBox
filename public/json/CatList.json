@@ -1,0 +1,39 @@
+[
+  {
+    "text" : "モーダル",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/modal"
+  },{
+    "text" : "ハンバーガーメニュー",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/hamburger_menu"
+  },{
+    "text" : "グローバルメニュー",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/global_menu"
+  },{
+    "text" : "スムーススクロール",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/smooth_scroll"
+  },{
+    "text" : "フォーム",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/form"
+  },{
+    "text" : "アコーディオン",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/accordion"
+  },{
+    "text" : "スライダー",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/slider"
+  },{
+    "text" : "トップへ戻る",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/go_top"
+  },{
+    "text" : "フィルタリング",
+    "thumb"  : "/images/Cats/ComingSoon.png",
+    "url" : "/filtering"
+  }
+]
