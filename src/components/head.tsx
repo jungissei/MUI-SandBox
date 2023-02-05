@@ -11,7 +11,7 @@ export default ({ title }: Props): JSX.Element => {
 
   return (
     <Head>
-      <title>{title}{sep}{site_title}</title>
+      <title>{`${title}${sep}${site_title}`}</title>
     </Head>
   );
 };

@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: '/MUI-SandBox'
+  assetPrefix: process.env.NODE_ENV === "production" ? "/MUI-SandBox" : ""
 };
