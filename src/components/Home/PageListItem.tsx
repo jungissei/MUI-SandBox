@@ -4,7 +4,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-
+import addUrlPrefix from '../../addUrlPrefix';
 
 type Props = {
   text:string
@@ -19,7 +19,7 @@ export default function PageListItem({ text, url }: Props) {
         borderRadius: 0
       }}
     >
-      <CardActionArea href={url}>
+      <CardActionArea href={addUrlPrefix(url)}>
         <CardContent sx={{
           background: '#121212'
         }}>

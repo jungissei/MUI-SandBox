@@ -3,8 +3,8 @@
   "version": "5.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "env NODE_ENV='production' next build",
+    "dev": "env NEXT_PUBLIC_ENV='dev' next dev",
+    "build": "env NEXT_PUBLIC_ENV='prod' next build",
     "start": "next start",
     "lint": "next lint",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"

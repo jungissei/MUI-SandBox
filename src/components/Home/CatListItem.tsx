@@ -4,14 +4,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-
+import addUrlPrefix from '../../addUrlPrefix';
 
 type Props = {
   text:string
   thumb:string
   url:string
 }
-
 
 export default function CatListItem({ text, thumb, url }: Props) {
   return (
@@ -20,10 +19,10 @@ export default function CatListItem({ text, thumb, url }: Props) {
         borderRadius: 0
       }}
     >
-      <CardActionArea href={url}>
+      <CardActionArea href={addUrlPrefix(url)}>
         <CardMedia
           component="img"
-          image={thumb}
+          image={addUrlPrefix(thumb)}
         />
         <CardContent sx={{
           background: '#121212'

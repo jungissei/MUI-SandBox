@@ -1,6 +1,8 @@
 import Typography from '@mui/material/Typography';
 import MuiLink from '@mui/material/Link';
 
+import addUrlPrefix from '../addUrlPrefix';
+
 export default function SiteTitle() {
   return (
     <Typography
@@ -17,7 +19,7 @@ export default function SiteTitle() {
         }
       }}
     >
-      <MuiLink href="/" color="text.primary" underline="none">
+      <MuiLink href={addUrlPrefix('/')} color="text.primary" underline="none">
         MUI SandBox
       </MuiLink>
     </Typography>

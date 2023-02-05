@@ -1,6 +1,8 @@
 import Typography from '@mui/material/Typography';
 import MuiLink from '@mui/material/Link';
 
+import addUrlPrefix from '../addUrlPrefix';
+
 type Props = {
   title:string
   href:string
@@ -21,7 +23,7 @@ export default function SiteTitle({ title, href }: Props ) {
         }
       }}
     >
-      <MuiLink href={href} color="text.primary" underline="none">
+      <MuiLink href={addUrlPrefix(href)} color="text.primary" underline="none">
         {title}
       </MuiLink>
     </Typography>
