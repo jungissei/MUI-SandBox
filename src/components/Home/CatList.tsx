@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 
-import CatListItem from './CatListItem';
+import CatListItem from '@/components/Home/CatListItem';
 
 import CatListData from '../../../public/json/CatList.json';
 

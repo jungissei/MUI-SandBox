@@ -1,7 +1,7 @@
 import Typography from '@mui/material/Typography';
 import MuiLink from '@mui/material/Link';
 
-import addUrlPrefix from '../addUrlPrefix';
+import addUrlPrefix from '@/addUrlPrefix';
 
 type Props = {
   title:string

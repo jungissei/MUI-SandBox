@@ -4,7 +4,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-import addUrlPrefix from '../../addUrlPrefix';
+import addUrlPrefix from '@/addUrlPrefix';
 
 type Props = {
   text:string

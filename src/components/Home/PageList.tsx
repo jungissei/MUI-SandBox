@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 
-import PageListItem from './PageListItem';
+import PageListItem from '@/components/Home/PageListItem';
 
 import PageListData from '../../../public/json/Modal.json';
 
