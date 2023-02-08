@@ -1,10 +1,10 @@
-import Head from '../src/components/head';
+import Head from '@/components/head';
 
 import Container from '@mui/material/Container';
 
-import SiteTitle from '../src/components/SiteTitle';
-import Copyright from '../src/components/Copyright';
-import CatList from '../src/components/Home/CatList';
+import SiteTitle from '@/components/SiteTitle';
+import Copyright from '@/components/Copyright';
+import CatList from '@/components/Home/CatList';
 
 
 export default function Home() {

@@ -1,12 +1,12 @@
-import Head from '../../../src/components/head';
+import Head from '@/components/head';
 
 import Container from '@mui/material/Container';
 
-import SiteTitle from '../../../src/components/SiteTitle';
-import PageTitle from '../../../src/components/PageTitle';
-import DemoTitle from '../../../src/components/DemoTitle';
-import PageList from '../../../src/components/Home/PageList';
-import Copyright from '../../../src/components/Copyright';
+import SiteTitle from '@/components/SiteTitle';
+import PageTitle from '@/components/PageTitle';
+import DemoTitle from '@/components/DemoTitle';
+import PageList from '@/components/Home/PageList';
+import Copyright from '@/components/Copyright';
 
 export default function Home() {
   return (
