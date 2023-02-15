@@ -16,7 +16,12 @@ export default function SiteTitle({ title }: Props ) {
         fontSize: {
           md: '30px',
           xs: '20px'
-        }
+        },
+        display: 'inline-block',
+        pl: '10px',
+        '&::before': {
+          content: '" / "'
+        },
       }}
     >
       {title}

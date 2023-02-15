@@ -19,7 +19,9 @@ export default function Home() {
         <Head title='Modal'/>
         <header>
           <SiteTitle />
-          <PageTitle title='Modal' href='/modal' />
+          <div>
+            <PageTitle title='Modal' href='/modal' />
+          </div>
         </header>
         <main>
           <PageList />

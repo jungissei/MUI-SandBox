@@ -20,7 +20,8 @@ export default function SiteTitle({ title, href }: Props ) {
         fontSize: {
           md: '35px',
           xs: '25px'
-        }
+        },
+        display: 'inline-block'
       }}
     >
       <MuiLink href={addUrlPrefix(href)} color="text.primary" underline="none">

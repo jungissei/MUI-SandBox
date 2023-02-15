@@ -19,8 +19,11 @@ export default function Home() {
       <Head title='Modal'/>
       <header>
         <SiteTitle />
-        <PageTitle title='Modal' href='/modal' />
-        <DemoTitle title='Basic' />
+
+        <div>
+          <PageTitle title='Modal' href='/modal' />
+          <DemoTitle title='Basic' />
+        </div>
       </header>
       <main>
         ここにUIデモが入ります。
