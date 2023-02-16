@@ -9,6 +9,7 @@ import SiteTitle from '@/components/SiteTitle';
 import PageTitle from '@/components/PageTitle';
 import DemoTitle from '@/components/DemoTitle';
 import Copyright from '@/components/Copyright';
+import ModalList from '@/components/Modal/ModalList';
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         </div>
       </header>
       <main>
-        ここにUIデモが入ります。
+        <ModalList />
       </main>
       <footer>
         <Copyright />
