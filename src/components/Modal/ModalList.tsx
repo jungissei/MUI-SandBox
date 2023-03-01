@@ -19,6 +19,7 @@ export default function DogList() {
           <ModalListItem
             name={data.name}
             thumb={data.thumb}
+            txt={data.txt}
           />
 
         </Grid>
